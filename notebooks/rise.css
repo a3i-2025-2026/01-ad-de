@@ -9,42 +9,42 @@
 /* @import url(assets/league-gothic/league-gothic.css); */
 /* @import url(assets/source-sans-pro/source-sans-pro.css); */
 @import url(assets/Lato/stylesheet.css);
-@import url(assets/Source Sans Pro/stylesheet.css);
-@import url(assets/Open Sans/stylesheet.css);
-@import url(assets/Palanquin/stylesheet.css);
-@import url(assets/Quattrocento Sans/stylesheet.css);
+/* @import url(assets/Source Sans Pro/stylesheet.css); */
+/* @import url(assets/Open Sans/stylesheet.css); */
+/* @import url(assets/Palanquin/stylesheet.css); */
+/* @import url(assets/Quattrocento Sans/stylesheet.css); */
 
-.stack p {
+.rise-enabled .reveal p {
   font-family: "Lato", sans-serif;
   font-weight: 300;
-  font-size: 1.5vw;
+  font-size: 2.5vw;
   color: #222;
   padding-left: 2vw;
   margin-top: 0.35em;
   margin-bottom: 0.35em;
 }
 
-.stack em {
+.rise-enabled .reveal em {
   font-style: normal;
   color: #f55a04;
   /* border-bottom: solid 1.4px; */
 }
 
-.stack pre code span {
-  font-size: 1vw;
+.rise-enabled .reveal pre code {
+  font-size: 2.2vw;
   /* background-color: #f0f0f0; */
   /* max-height: 700px; */
 }
 
-.stack pre code {
-  font-size: 1vw;
+.rise-enabled .reveal code {
+  font-size: 2.2vw;
   /* background-color: #f0f0f0; */
   /* max-height: 700px; */
 }
 
-.stack ol,
-.stack dl,
-.stack ul {
+.reveal ol,
+.reveal dl,
+.reveal ul {
   /* font-family: "Lato", sans-serif; */
   /* font-weight: 300; */
   /* font-size: 1.5vw; */
@@ -55,16 +55,15 @@
   margin: 0 0 0 0;
 }
 
-.stack ul li {
+.rise-enabled .reveal ul li {
   font-family: "Lato", sans-serif;
   font-weight: 300;
-  font-size: 1.5vw;
+  font-size: 2.5vw;
   text-indent: 0em;
   list-style-type: none;
-  margin-left: -0.5vw;
-  margin-top: -0.1vw;
+  /* margin-left: -0.5vw; */
+  /* margin-top: -0.1vw; */
 }
-
 
 .reveal ul li:before {
   content: "■";
@@ -72,13 +71,13 @@
   color: #9b0014;
 }
 
-.stack ul ul li {
+.reveal ul ul li {
   /* font-family: "Lato", sans-serif; */
   /* font-weight: 300; */
   /* font-size: 1.5vw; */
   /* text-indent: 0em; */
   /* list-style-type: none; */
-  margin-left: -6vw;
+  margin-left: -2em;
   /* margin-top: -0.1vw; */
 }
 
@@ -94,9 +93,11 @@
   padding: 0.25em 1em 0.35em 1em;
   font-style: normal;
   border-style: solid;
-  border-width: 3px;
+  border-width: 2px;
   border-radius: 1vw;
   border-color: rgb(0, 0, 0);
+  margin-top: 2em;
+  margin-bottom: 2em;
   /* box-shadow: none; */
 }
 
@@ -106,7 +107,7 @@
 
 .reveal .big {
   font-family: "Lato", sans-serif;
-  font-size: 2.5vw;
+  font-size: 4vw;
   text-align:center;
   margin-top: 40vh;
   font-weight: bold
@@ -116,14 +117,14 @@
   font-family: "Lato", sans-serif;
   font-weight: 600;
   display: table-cell;
-  font-size: 2vw;
+  font-size: 3.2vw;
   border-bottom-style: solid;
   border-bottom-width: 1px;
   width: 100vw;
   height: 10vh;
   vertical-align: bottom;
   padding-bottom: 0.1em;
-  padding-left: 2.5vw;
+  padding-left: 2vw;
   background: linear-gradient(#9b0014, #9b0014);
   background-position: bottom right;
   background-size: 5vw 100%;
@@ -135,7 +136,7 @@
 .reveal h1 {
   font-family: "Lato", sans-serif;
   font-weight: 600;
-  font-size: 2.8vw;
+  font-size: 4vw;
   display: table-cell;
   vertical-align: bottom;
   padding-bottom: 0.2rem;
