@@ -14,6 +14,22 @@
 /* @import url(assets/Palanquin/stylesheet.css); */
 /* @import url(assets/Quattrocento Sans/stylesheet.css); */
 
+.rise-enabled .reveal .cm-content {
+  font-size: 1.5vw;
+}
+
+.rise-enabled .reveal .jp-OutputArea pre {
+  font-size: 1.3vw;
+}
+
+.rise-enabled .reveal .jp-OutputArea td {
+  font-size: 1.3vw;
+}
+
+.rise-enabled .reveal .jp-OutputArea th {
+  font-size: 1.3vw;
+}
+
 .rise-enabled .reveal p {
   font-family: "Lato", sans-serif;
   font-weight: 300;
